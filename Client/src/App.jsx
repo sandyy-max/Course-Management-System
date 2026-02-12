@@ -1,10 +1,12 @@
-import { useState } from 'react';
-import reactLogo from './assets/react.svg';
-import viteLogo from '/vite.svg';
+
 import './App.css';
+import TodoApp from "./Components/ToDo";
 
 function App() {
-  return <h1>Course Management System</h1>;
+  <>
+  <TodoApp/>
+  </>
+  
 }
 
 export default App;
